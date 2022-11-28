@@ -19,3 +19,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.counterApp {
+  background-color: #fdfbfb;
+  margin: 50px auto;
+  max-width: 400px;
+  padding: 10px 20px;
+  border-radius: 0.25rem;
+  text-align: center;
+  color: #fff;
+}
+
+.counterApp h1 {
+  font-weight: 100;
+  color: grey;
+}
+
+.counterApp>* {
+  margin: 20px auto;
+}
+
+.btn-actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+button {
+  cursor: pointer;
+  background-color: #fff;
+  border: 0;
+  padding: 0.25rem;
+}
+
+.btn {
+  font-weight: 600;
+}
+
+.btn.increment {
+  background-color: aquamarine;
+}
+
+.btn.incrementBy5 {
+  background-color: rgb(168, 255, 127);
+}
+
+.btn.decrement {
+  background-color: crimson;
+  color: #fff;
+}
+
+.btn.toggle {
+  background-color: mediumslateblue;
+  color: #fff;
+  padding: 10px 20px;
+}

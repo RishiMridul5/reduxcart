@@ -1,0 +1,18 @@
+.notification {
+    padding: 10px ;
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+}
+
+.failed {
+    background-color: crimson;
+    color: #fff;
+
+}
+
+.success {
+    background-color: aquamarine;
+    color: #000;
+}
